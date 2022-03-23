@@ -1,0 +1,117 @@
+*
+{
+	font-family: 'Bahnschrift light';
+}
+body
+{
+	background-image: url('images/i12.jpg');
+	backdrop-filter: blur(0px);
+	background-size: cover;
+	background-position: top;
+	
+}
+#banner
+{
+	width: max-content;
+	text-transform: uppercase;
+	margin: auto;
+	font-size: 4rem;
+	padding: 2rem;
+	font-weight: bold;
+	text-align: center;
+}
+#wrapper
+{
+	width: max-content;
+	padding: 2rem;
+}
+.SubHead
+{
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+}
+.table
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+label
+{
+	text-align: left;
+	font-size: 1.2rem;
+}
+input
+{
+	width: 20rem;
+	padding: .5rem;
+	margin-bottom: 1rem;
+	border: .1rem solid #000;
+	background: transparent;
+	border-radius: .2rem;
+	font-size: 1rem;
+}
+select
+{
+	width: 20rem;
+	padding: .5rem;
+	margin-bottom: 1rem;
+	border: .1rem solid #000;
+	background: transparent;
+	color: grey;
+	border-radius: .2rem;
+	font-size: 1rem;
+}
+.alert, .msg
+{
+	border-radius: .2rem;
+	color: lime;
+	text-align: center;
+}
+.alert
+{
+	color: red;
+}
+.button
+{
+	width: 100%;
+	padding: .5rem 0rem;
+	margin-top: .5rem;
+	background-color: black;
+	border: none;
+	border-radius: .2rem;
+	color: #fff;
+	font-size: 1.1rem;
+	box-shadow: .0rem .2rem .2rem #00000066;
+	cursor: pointer;
+	text-decoration: none;
+}
+table
+{
+	width: 100%;
+	text-align: center;
+	border-collapse: separate;
+	border-spacing: .5rem;	
+	font-size: 1.1rem;
+}
+th
+{
+	padding: .5rem 1rem;
+	text-decoration: none;
+	background: #bdbdbd;
+	border-radius: .2rem;
+	border-collapse: separate;
+	border-spacing: 1rem;
+}
+.link
+{
+	color: rgb(0, 102, 255);
+	font-size: 1.1rem;
+}
+.btn
+{
+	color: rgb(0, 102, 255);
+}
